@@ -7,9 +7,10 @@
 :sectanchors:
 :experimental:
 
-[.lead]
 Dépôt collaboratif de SAÉ 3.A.01 - Développement appli
 IUT Blagnac - BUT Informatique
+
+[.lead]
 
 == Présentation de l'équipe et rôles respectifs
 
