@@ -1,0 +1,24 @@
+= SAÉ 3.A.01 - Groupe G1B5
+:toc: left
+:toclevels: 3
+:icons: font
+:source-highlighter: highlight.js
+:sectnums:
+:sectanchors:
+:experimental:
+
+[.lead]
+Dépôt collaboratif de SAÉ 3.A.01 - Développement appli
+IUT Blagnac - BUT Informatique
+
+== Présentation de l'équipe et rôles respectifs
+
+[cols="2,3,5", options="header"]
+|===
+| Étudiant | Rôle principal | Responsabilités
+
+| Etienne Massonnet      | Scrum Master     | ...
+| Tom Pottin             | Product Owner    | ...
+| Anthony Andrade-de-Sa  | Développeur      | ...
+| Taïna Louiserre        | Développeuse     | ...
+|===
