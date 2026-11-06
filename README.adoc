@@ -134,12 +134,12 @@ Ils peuvent notamment comprendre :
 
 | Sem 46
 | *Sprint 0 (mise en place)* : Product Backlog (liste des US a minima avec complexité et priorité) + Backlog du sprint
-| link:Backlog produit.pdf[Backlog produit.pdf]
+| link:Backlog_produit.pdf[Backlog_produit.pdf]
 |
 
 | Sem 46
 | *Backlog produit + Backlog Sprint 1* à préparer, documentation de conception (Diagramme UC, Diagramme de classes métiers, quelques DSS)
-|link:Backlog produit.pdf[Backlog produit.pdf]
+|link:Backlog_produit.pdf[Backlog_produit.pdf]
 |
 
 | Sem 47-48
