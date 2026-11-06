@@ -10,7 +10,7 @@
 Dépôt collaboratif de SAÉ 3.A.01 - Développement appli
 IUT Blagnac - BUT Informatique
 
-Ce projet consiste à développer une application dans le cadre de la SAÉ 3.A.01, en suivant la méthodologie Agile (Scrum).
+Ce projet consiste à développer une application web e-commerce dans le cadre de la SAÉ 3.A.01, en suivant la méthodologie Agile (Scrum).
 
 [.lead]
 
