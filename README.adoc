@@ -7,12 +7,10 @@
 :sectanchors:
 :experimental:
 
-Dépôt collaboratif de SAÉ 3.A.01 - Développement appli
-IUT Blagnac - BUT Informatique
+Dépôt collaboratif de SAÉ 3.A.01 - Développement d'application
+IUT de Blagnac - BUT Informatique - Année universitaire 2026/2027
 
-Ce projet consiste à développer une application web e-commerce dans le cadre de la SAÉ 3.A.01, en suivant la méthodologie Agile (Scrum).
-
-[.lead]
+Ce dépôt contient les travaux réalisés par notre groupe (G1B5) dans le cadre de la SAÉ 3.A.01. Le projet consiste à concevoir et développer une application e-commerce en suivant la méthodologie Agile Scrum.
 
 == Présentation de l'équipe et rôles
 
@@ -20,8 +18,127 @@ Ce projet consiste à développer une application web e-commerce dans le cadre d
 |===
 | Étudiant | Rôle principal | Responsabilités
 
-| Etienne Massonnet      | Scrum Master / Développeur | Suvi méthode AGILE
-| Tom Pottin             | Product Owner / Développeur | Suivi backlog / produit
-| Anthony Andrade-de-Sa  | Développeur      | Développement
-| Taïna Louiserre        | Développeuse     | Développement
+| Etienne Massonnet
+| Scrum Master / Développeur
+| Suivi de la méthodologie Agile, organisation des activités Scrum et participation au développement.
+
+| Tom Pottin
+| Product Owner / Développeur
+| Gestion du Product Backlog, définition des priorités et participation au développement.
+
+| Anthony Andrade-de-Sa
+| Développeur
+| Conception, développement et tests de l'application.
+
+| Taïna Louiserre
+| Développeuse
+| Conception, développement et tests de l'application.
 |===
+
+== Technologies utilisées
+
+Le développement s'appuie sur les technologies et outils suivants :
+
+[cols="2,3,5", options="header"]
+|===
+| Technologie / Outil | Domaine | Utilisation
+
+| PHP
+| Backend
+| Développement des traitements côté serveur et gestion des fonctionnalités de l'application.
+
+| MySQL
+| Base de données
+| Stockage et gestion des données de l'application.
+
+| HTML5 / CSS3
+| Frontend
+| Structure et présentation des interfaces utilisateur.
+
+| JavaScript
+| Frontend
+| Gestion des interactions dynamiques côté client.
+
+| Git
+| Versionnement
+| Gestion de l'historique et des modifications du code source.
+
+| GitHub
+| Gestion de projet
+| Hébergement du dépôt, gestion des issues et organisation des sprints.
+|===
+
+== Installation et configuration
+
+Cette section présente les étapes nécessaires pour récupérer et exécuter le projet en environnement local.
+
+
+=== Récupération du projet
+
+Cloner le dépôt GitHub :
+
+[source,bash]
+----
+git clone https://github.com/TomPottin/1B5.git
+----
+
+Accéder au répertoire du projet :
+
+[source,bash]
+----
+cd 1B5
+----
+
+=== Configuration de la base de données
+
+NOTE: à écrire après création de la BD lors du sprint 2
+
+
+=== Lancement de l'application
+
+Une fois l'environnement configuré, démarrer le serveur web et accéder à l'application depuis un navigateur.
+
+== Architecture du projet 
+
+=== Organisation des fichiers
+
+NOTE: à compléter au fur et à mesure avant rendu
+
+[source,text]
+----
+.
+├── README.adoc
+├── docs
+└── code
+----
+
+
+== Documentation et livrables
+
+Les différents éléments produits dans le cadre de la MOE sont accessibles depuis ce dépôt.
+
+Ils peuvent notamment comprendre :
+
+* Le code source de l'application.
+* Les scripts de création et d'initialisation de la base de données.
+* Les diagrammes de conception.
+* Les documents techniques.
+* Les comptes rendus des revues et rétrospectives de sprint.
+* Les éléments de suivi du développement.
+
+== État d'avancement du projet
+
+L'état d'avancement de l'application est suivi au cours des différents sprints.
+
+Les fonctionnalités développées, en cours de développement ou complétées sont suivies dans le GitHub Projects du groupe.
+
+Pour consulter l'avancement détaillé, se référer au tableau de bord du projet :
+
+https://github.com/users/TomPottin/projects/1[Lien vers GitHub Projects]
+
+---
+
+*SAÉ 3.A.01 - Groupe G1B5*
+
+IUT de Blagnac - BUT Informatique
+Année universitaire 2026/2027
