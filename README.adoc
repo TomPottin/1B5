@@ -11,16 +11,17 @@ Dépôt collaboratif de SAÉ 3.A.01 - Développement appli
 IUT Blagnac - BUT Informatique
 
 Ce projet consiste à développer une application dans le cadre de la SAÉ 3.A.01, en suivant la méthodologie Agile (Scrum).
+
 [.lead]
 
-== Présentation de l'équipe et rôles respectifs
+== Présentation de l'équipe et rôles
 
 [cols="2,3,5", options="header"]
 |===
 | Étudiant | Rôle principal | Responsabilités
 
-| Etienne Massonnet      | Scrum Master     | ...
-| Tom Pottin             | Product Owner    | ...
-| Anthony Andrade-de-Sa  | Développeur      | ...
-| Taïna Louiserre        | Développeuse     | ...
+| Etienne Massonnet      | Scrum Master / Développeur | Suvi méthode AGILE
+| Tom Pottin             | Product Owner / Développeur | Suivi backlog / produit
+| Anthony Andrade-de-Sa  | Développeur      | Développement
+| Taïna Louiserre        | Développeuse     | Développement
 |===
