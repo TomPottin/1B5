@@ -126,6 +126,43 @@ Ils peuvent notamment comprendre :
 * Les comptes rendus des revues et rétrospectives de sprint.
 * Les éléments de suivi du développement.
 
+===Planning
+
+[cols="1,4,2,2", options="header"]
+|===
+| Semaine | Livrable | Liens | Retour
+
+| Sem 46
+| *Sprint 0 (mise en place)* : Product Backlog (liste des US a minima avec complexité et priorité) + Backlog du sprint
+| link:Backlog produit.pdf[Backlog produit.pdf]
+|
+
+| Sem 46
+| *Backlog produit + Backlog Sprint 1* à préparer, documentation de conception (Diagramme UC, Diagramme de classes métiers, quelques DSS)
+|link:Backlog produit.pdf[Backlog produit.pdf]
+|
+
+| Sem 47-48
+| *Évaluation Sprint 1* : Issues/US du sprint, Issues/Task List, Tests, doc/User-conception, release
+|
+|
+
+| Sem 49-50
+| *Évaluation Sprint 2* : Issues/US du sprint, Issues/Task List, Tests, doc, release
+|
+|
+
+| Sem 51 (fin de sprint 3, semaine 1)
+| *Rapport d'audit* du site e-commerce
+|
+|
+
+| Sem 51 à Sem 1
+| *Évaluation finale (Sprint 3)* : Issues/US/README du sprint, Issues/Task List, Tests, doc, release + Audit
+|
+|
+|===
+
 == État d'avancement du projet
 
 L'état d'avancement de l'application est suivi au cours des différents sprints.
