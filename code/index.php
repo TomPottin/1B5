@@ -8,6 +8,7 @@
         <h1>Bienvenue sur le site d'Oli-Vendeur !</h1>
         <ul>
             <li><a href="pages/CG_page_produit.php">Lien vers page tom (item)</a></li>
+            <li><a href="pages/Catalogue.php">Lien vers page anthony (catalogue)</a></li>
         </ul>
         <div id="filler"><p><b>CONTENU</b></p></div>
     </main>
