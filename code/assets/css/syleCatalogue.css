@@ -1,0 +1,201 @@
+/*Provisoire*/
+
+/* PAGE */
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px 24px 40px;
+    font-family: 'Manrope', sans-serif;
+    color: #1e1d35;
+}
+
+.container > h1 {
+    font: 28px 'Playfair Display', Georgia, serif;
+    margin-bottom: 18px;
+}
+
+.breadcrumb {
+    font-size: 11px;
+    color: #8a8572;
+    margin-bottom: 15px;
+}
+
+.breadcrumb a:hover { color: #b98d2e; }
+
+/* CATALOGUE */
+
+.catalogue {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.8fr);
+    gap: 20px;
+    align-items: start;
+}
+
+.etoiles { color: #d1a74a; }
+
+/* FILTRES */
+
+.filtres {
+    min-width: 0;
+    background: #fdfbf4;
+    border: 1px solid #e4dcc4;
+    border-radius: 8px;
+    padding: 18px;
+    box-shadow: 0 8px 20px rgba(27, 26, 61, .06);
+}
+
+.filtres h2 {
+    font: 18px 'Playfair Display', Georgia, serif;
+    margin-bottom: 15px;
+}
+
+.colonnes {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.filtres fieldset {
+    border: none;
+    margin-bottom: 15px;
+    min-width: 0;
+}
+
+.filtres legend {
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.filtres label {
+    display: block;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.filtres input { accent-color: #d1a74a; }
+
+.filtres input[type="range"] { width: 100%; }
+
+.intervalle {
+    font-size: 10px;
+    color: #8a8572;
+}
+
+.btn-filtrer {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #1b1a3d;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background .2s, transform .2s;
+}
+
+.btn-filtrer:hover {
+    background: #302e50;
+    transform: translateY(-2px);
+}
+
+/* PRODUITS */
+
+.produits {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+    min-width: 0;
+}
+
+.carte {
+    min-width: 0;
+    background: #fdfbf4;
+    border: 1px solid #e4dcc4;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    box-shadow: 0 8px 20px rgba(27, 26, 61, .06);
+    transition: transform .25s, box-shadow .25s;
+}
+
+.carte:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 28px rgba(27, 26, 61, .12);
+}
+
+.carte .photo {
+    background: #e4d9ba;
+    border: 1px solid #e4dcc4;
+    aspect-ratio: 16 / 9;
+    display: grid;
+    place-items: center;
+    color: #8a8572;
+    border-radius: 5px;
+}
+
+.carte h3 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.carte .note {
+    font-size: 10px;
+    color: #8a8572;
+}
+
+.carte .prix {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1b1a3d;
+}
+
+.btn-panier {
+    width: 100%;
+    padding: 9px;
+    border: none;
+    border-radius: 8px;
+    background: #d1a74a;
+    color: #1b1a3d;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+.btn-panier:hover:not(:disabled) {
+    background: #b98d2e;
+}
+
+.btn-panier:disabled {
+    background: #e4dcc4;
+    color: #8a8572;
+    cursor: not-allowed;
+}
+
+.carte.rupture { opacity: .6; }
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) {
+    .catalogue {
+        grid-template-columns: 1fr;
+    }
+
+    .produits {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .produits,
+    .colonnes {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 18px 12px;
+    }
+}
