@@ -92,6 +92,6 @@
                 </p>
             </article>
     </section>
-
+    <?php include_once("code/include/footer.php") ?>
 </body>
 </html>
