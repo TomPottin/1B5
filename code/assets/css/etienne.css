@@ -3,13 +3,13 @@
 /* HEADER + FOOTER */
 .header, .footer{
     width: 100%;
-    height: 60px;
+    min-height: 60px;       /* MODIF : était height: 60px (le contenu déborde sinon) */
     padding: 0 20px;
     box-sizing: border-box;
 
-    
 
     display: flex;
+    flex-wrap: wrap;        /* MODIF : passe à la ligne au lieu de déborder à droite */
     align-items: center;
     justify-content: space-between; 
     gap: 18px;
@@ -17,12 +17,18 @@
     background-color: #19172f;
     color: #e8e5dc;
 
-    font-size: 18px;
+    font-size: 14px;        /* MODIF : était 18px */
 }
 
 .header{
     position: sticky;
     top: 0;
+}
+
+/* MODIF : espacement du footer quand le texte passe sur deux lignes */
+.footer{
+    padding: 10px 20px;
+    row-gap: 4px;
 }
 
 .souscontainer{
@@ -94,7 +100,7 @@
     font-size: 16px;
 }
 
-.search-form input {
+.recherche-form input {     /* MODIF : était .search-form input (classe inexistante) */
     width: 100%;
     border: none;
     outline: none;
@@ -104,7 +110,7 @@
     font-size: 11px;
 }
 
-.search-form input::placeholder {
+.recherche-form input::placeholder {     /* MODIF : était .search-form input::placeholder */
     color: #aaa6b8;
 }
 
