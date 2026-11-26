@@ -1,0 +1,89 @@
+/* ===== Charte graphique Oli-Vendeur — page produit ===== */
+:root {
+    --navy:        #1b1a3d;
+    --gold:        #d1a74a;
+    --gold-dark:   #b98d2e;
+    --cream:       #f4efdf;
+    --cream-card:  #fdfbf4;
+    --beige:       #e4d9ba;
+    --border:      #e4dcc4;
+    --text:        #1e1d35;
+    --muted:       #8a8572;
+    --green:       #1f7a3d;
+
+    --font-title:  Georgia, "Times New Roman", serif;
+    --font-body:   "DejaVu Sans", Verdana, system-ui, sans-serif;
+    --radius:      4px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: var(--font-body);
+    font-size: 13px;
+    color: var(--text);
+    background: var(--cream);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main { flex: 1; }
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+
+/* ===== Layout ===== */
+.container { max-width: 1200px; margin: 0 auto; padding: 18px 24px 40px; width: 100%; }
+.breadcrumb { font-size: 10px; color: var(--muted); margin-bottom: 14px; }
+.breadcrumb a:hover { color: var(--gold-dark); }
+
+.product { display: grid; grid-template-columns: 1fr 1.5fr; gap: 36px; align-items: start; }
+.product-photo {
+    background: var(--beige); border: 1px solid var(--border);
+    aspect-ratio: 4 / 3; display: grid; place-items: center;
+    color: var(--muted); font-size: 11px;
+}
+
+/* ===== Fiche produit ===== */
+.product-info h1 { font-family: var(--font-title); font-size: 24px; line-height: 1.2; }
+.brand  { font-size: 10px; color: var(--muted); margin-top: 6px; }
+.rating { font-size: 10px; color: var(--muted); margin-top: 4px; }
+.stars  { color: var(--gold); letter-spacing: 1px; }
+.price  { font-family: var(--font-title); font-size: 24px; font-weight: 700; margin-top: 8px; }
+.stock  { color: var(--green); font-weight: 700; font-size: 11px; margin-top: 6px; display: flex; align-items: center; gap: 5px; }
+.dot    { width: 7px; height: 7px; background: var(--green); border-radius: 50%; }
+
+.label { font-size: 11px; font-weight: 700; margin: 14px 0 6px; }
+
+.perf li { display: grid; grid-template-columns: 130px 1fr 90px; align-items: center; gap: 8px; font-size: 10px; margin-bottom: 4px; max-width: 460px; }
+.bar { background: var(--border); height: 5px; border-radius: 3px; overflow: hidden; }
+.bar span { display: block; height: 100%; background: var(--gold); }
+.perf-value { font-weight: 700; }
+
+.sizes { display: flex; gap: 8px; }
+.size {
+    font: inherit; font-size: 11px; background: var(--cream-card);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 6px 12px; cursor: pointer;
+}
+.size:hover:not(:disabled) { border-color: var(--navy); }
+.size.selected { border: 2px solid var(--navy); font-weight: 600; }
+.size.unavailable { color: #bbb; text-decoration: line-through; cursor: not-allowed; }
+
+.btn-primary {
+    margin-top: 18px; font: inherit; font-size: 12px; font-weight: 700;
+    background: var(--gold); color: var(--navy); border: none;
+    padding: 11px 22px; border-radius: var(--radius); cursor: pointer;
+}
+.btn-primary:hover { background: var(--gold-dark); }
+
+/* ===== Cartes ===== */
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 18px; }
+.card { background: var(--cream-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; }
+.card h2 { font-family: var(--font-title); font-size: 16px; margin-bottom: 6px; }
+.muted { color: var(--muted); font-size: 10px; }
+.review { font-size: 11px; }
+
+/* ===== Responsive ===== */
+@media (max-width: 800px) {
+    .product, .cards { grid-template-columns: 1fr; }
+}
