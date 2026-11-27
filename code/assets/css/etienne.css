@@ -75,11 +75,6 @@
 .navigation a:hover {
     color: #c9a84c;
 }
-.navigation a:active {
-    color: #c9a84c;
-    text-decoration: underline;
-    font-weight: bold;
-}
 
 
 /* RECHERCHE */
