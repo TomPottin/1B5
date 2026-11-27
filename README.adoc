@@ -108,8 +108,20 @@ NOTE: à compléter au fur et à mesure avant rendu
 ----
 .
 ├── README.adoc
-├── docs
-└── code
+├── docs/
+|   ├── DOC_TECH.adoc
+|   ├── DOC_UTIL.adoc
+|   ├── backlog_produit.ods
+|   ├── DOC_TECH.adoc
+|   ├── DOC_TECH.adoc
+|   └── cahier_tests/
+└── code/
+    ├── actions/
+    ├── assets/
+    ├── config/
+    ├── include/
+    ├── pages/
+    └── index.php
 ----
 
 
@@ -134,12 +146,12 @@ Ils peuvent notamment comprendre :
 
 | Sem 46
 | *Sprint 0 (mise en place)* : Product Backlog (liste des US a minima avec complexité et priorité) + Backlog du sprint
-| link:Backlog_produit.pdf[Backlog_produit.pdf]
+| link:https://github.com/TomPottin/1B5/blob/main/docs/backlog_produit.ods[Backlog_produit.pdf]
 |
 
 | Sem 46
 | *Backlog produit + Backlog Sprint 1* à préparer, documentation de conception (Diagramme UC, Diagramme de classes métiers, quelques DSS)
-|link:Backlog_produit.pdf[Backlog_produit.pdf]
+|link:https://github.com/TomPottin/1B5/blob/main/docs/backlog_produit.ods[Backlog_produit.pdf]
 |
 
 | Sem 47-48
