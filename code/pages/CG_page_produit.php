@@ -28,7 +28,7 @@
     <main class="container">
     <nav class="breadcrumb" aria-label="Fil d'Ariane">
         <!-- Il faudra remplacer les # par le lien des pages correspondante -->
-        <a href="#">Accueil</a> > <a href="#">Baguettes</a> > <span><?= htmlspecialchars($produit['nom']) ?></span>
+        <a href="../index.php">Accueil</a> > <a href="#">Baguettes</a> > <span><?= htmlspecialchars($produit['nom']) ?></span>
     </nav>
     <section class="product">
 

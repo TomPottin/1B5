@@ -51,8 +51,8 @@ ul { list-style: none; }
 /* ===== Fiche produit ===== */
 .product-info h1 { font-family: var(--font-title); font-size: 24px; line-height: 1.2; }
 .brand  { font-size: 10px; color: var(--muted); margin-top: 6px; }
-.rating { font-size: 10px; color: var(--muted); margin-top: 4px; }
-.stars  { color: var(--gold); letter-spacing: 1px; }
+.rating { font-size: 10px; color: var(--muted); margin-top: 4px; align-items: center; display: flex; gap: 5px;}
+.stars  { color: var(--gold); letter-spacing: 1px; font-size: 14px;}
 .price  { font-family: var(--font-title); font-size: 24px; font-weight: 700; margin-top: 8px; }
 .stock  { color: var(--green); font-weight: 700; font-size: 11px; margin-top: 6px; display: flex; align-items: center; gap: 5px; }
 .dot    { width: 7px; height: 7px; background: var(--green); border-radius: 50%; }
