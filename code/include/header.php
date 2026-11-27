@@ -14,12 +14,12 @@
             <nav class="navigation">
                 <a href="/index.php">Accueil</a>
                 <!-- pages php ayant pour seul objectif de filtrer le catalogue -->
-                <a href="/pages/CG_page_produit.php">Baguettes</a>
-                <a href="/pages/balais.php">Balais</a>
-                <a href="/pages/potions.php">Potions</a>
-                <a href="/pages/livres.php">Livres & Parchemins</a>
-                <a href="/pages/nouveautes.php">Nouveautés</a>
-                <a href="/pages/soldes.php">Soldes</a>
+                <a href="/pages/Catalogue.php?nomCat=Baguettes">Baguettes</a>
+                <a href="/pages/Catalogue.php?nomCat=Balais">Balais</a>
+                <a href="/pages/Catalogue.php?nomCat=Potions">Potions</a>
+                <a href="/pages/Catalogue.php?nomCat=Livres">Livres & Parchemins</a>
+                <a href="/pages/Catalogue.php?tag=Nouveautes">Nouveautés</a>
+                <a href="/pages/Catalogue.php?tag=Soldes">Soldes</a>
             </nav>
         </div>
 
